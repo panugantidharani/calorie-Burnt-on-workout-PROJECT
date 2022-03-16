@@ -1,0 +1,15 @@
+Calories Burnt On Workout
+Dataset link:https://www.kaggle.com/fmendes/fmendesdat263xdemos?select=exercise.csv
+
+In this project, I applied different Machine Learning models to predict the data of calories burned in the exercises from the knowledge of duration (t), heart rate (h), body temperature (T), age (A), weight (W), height (H) and gender (G). It was verified that the variable that most influences the burning of calories is duration, followed by heart rate and body temperature.
+
+giphy.gif
+
+Importing Libraries
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+Loading datasets
+calories = pd.read_csv('calories.csv')
+calories.head()
